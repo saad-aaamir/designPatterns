@@ -4,6 +4,12 @@ import com.designPatterns.Creational.Factory.Factory.*;
 import com.designPatterns.Creational.Factory.Product.Vehicle_product;
 
 public class FactoryPattern {
+    public FactoryPattern(){
+        System.out.print("----------------Factory pattern start----------------\n");
+        run();
+        System.out.print("----------------Factory pattern end----------------\n");
+    }
+
     public void run() {
 
         Vehicle_factory factory;

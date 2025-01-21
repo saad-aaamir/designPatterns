@@ -13,7 +13,7 @@ it is a blueprint (interface) that declare what are the products functionalities
     public interface product{
         void func1();
         void func2();
-        void func4();
+        void func3();
     }
 
 • **Concrete Product**
